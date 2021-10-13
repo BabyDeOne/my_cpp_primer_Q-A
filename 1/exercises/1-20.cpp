@@ -1,5 +1,5 @@
 #include <iostream>
-#include "c:/cpp/cppprimer/1/Sales_item.h"
+#include "/mnt/c/cpp/cppprimer/1/Sales_item.h"
 
 int main(){
     Sales_item book;
