@@ -1,0 +1,11 @@
+Explain the key differences between pointers and references.
+
+reference:
+- A reference is not an object in memory
+- Must be initialized 
+- it is unchangeble after be initialized
+
+pointer:
+- A pointer is an object in memory
+- can be declared but not initialized
+- its value can be changed
