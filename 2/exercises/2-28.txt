@@ -1,0 +1,11 @@
+Explain the following definitions. Identify any that are illegal. 
+(a) int i , *const cp;
+    i is an int object; cp is a constant pointer to an int. Illegal: cp is uninitialized.
+(b) int *p1, *const p2;
+    p1 is a pointer to an int, p2 is a constant pointer to an int. Illegal: p2 is uninitialized.
+(c) const int ic, &r = ic;
+    ic is an integer constant; r is a reference to an integer constant. Illegal: ic is uninitialized.
+(d) const int *const p3;
+    p3 is a constant pointer to an integer constant. Illegal: p3 is uninitialized.
+(e) const int *p;
+    p is a pointer to an integer constant. Legal. 
