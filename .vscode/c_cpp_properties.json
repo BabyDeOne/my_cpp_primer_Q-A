@@ -5,7 +5,7 @@
             "includePath": [
                 "${default}"
             ],
-            "compilerPath": "/usr/bin/gcc",
+            "compilerPath": "/usr/bin/cpp",
             "cStandard": "gnu17",
             "cppStandard": "gnu++14",
             "intelliSenseMode": "linux-gcc-x64"
