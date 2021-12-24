@@ -1,0 +1,4 @@
+Explain how whitespace characters are handled in the string input operator and in the getline funciton.
+
+In the string input operator leading whitespaces are skipped.
+In getline function all whitespaces are copied to the stirng. 
