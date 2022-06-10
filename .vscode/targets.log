@@ -1,0 +1,382 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+# GNU Make 4.2.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Thu Jun  9 20:52:17 2022
+
+# Variables
+
+# 'override' directive
+GNUMAKEFLAGS := 
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# makefile (from 'makefile', line 1)
+DIRS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+# environment
+PAPERSIZE = letter
+# environment
+DESKTOP_SESSION = ubuntu
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_SESSION_CLASS = user
+# environment
+XDG_SESSION_TYPE = x11
+# environment
+VSCODE_LOG_NATIVE = false
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+IM_CONFIG_PHASE = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# environment
+GDMSESSION = ubuntu
+# environment
+XMODIFIERS = @im=ibus
+# makefile
+CURDIR := /home/playerone/Documents/my_cpp_primer_Q-A
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# environment
+_ = /usr/share/code/code
+# environment
+JOURNAL_STREAM = 8:54157
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST :=  makefile
+# automatic
+@F = $(notdir $@)
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# environment
+USERNAME = playerone
+# environment
+MAKELEVEL := 0
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+MANAGERPID = 1576
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+LC_NAME = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/playerone
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+PATH = /home/playerone/.local/bin:/home/playerone/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+GJS_DEBUG_OUTPUT = stderr
+# environment
+SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/1771,unix/liuniversity:/tmp/.ICE-unix/1771
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+XDG_MENU_PREFIX = gnome-
+# environment
+VSCODE_LOG_STACK = false
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# environment
+INVOCATION_ID = 093dd24c18d04bea8d309021a8c35dce
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 4763
+# automatic
+%F = $(notdir $%)
+# environment
+DISPLAY = :1
+# environment
+VSCODE_PIPE_LOGGING = true
+# environment
+PWD = /home/playerone/Documents/my_cpp_primer_Q-A
+# default
+.LOADED := 
+# environment
+SSH_AGENT_PID = 1743
+# environment
+ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# environment
+GTK_MODULES = gail:atk-bridge
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/playerone
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+VSCODE_CODE_CACHE_PATH = /home/playerone/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+# environment
+LOGNAME = playerone
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+LC_TIME = en_US.UTF-8
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# environment
+QT_IM_MODULE = ibus
+# environment
+SHLVL = 0
+# environment
+GNOME_SHELL_SESSION_MODE = ubuntu
+# environment
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0b2010f6-a39d-4859-8dd7-e8ed3bc005ac.sock
+# default
+MAKE_VERSION := 4.2.1
+# environment
+USER = playerone
+# environment
+LC_MONETARY = en_US.UTF-8
+# makefile
+.DEFAULT_GOAL := all
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = en_US:en
+# environment
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6906037c-1.68.0-main.sock
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+GDK_BACKEND = x11
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+QT_ACCESSIBILITY = 1
+# default
+MAKEFILES := 
+# environment
+LC_NUMERIC = en_US.UTF-8
+# automatic
+<F = $(notdir $<)
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+LC_ALL = C
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+WINDOWPATH = 2
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# environment
+LC_IDENTIFICATION = en_US.UTF-8
+# default
+.RECIPEPREFIX := 
+# environment
+LC_ADDRESS = en_US.UTF-8
+# environment
+LANG = C
+# environment
+VSCODE_PID = 4763
+# variable set hash-table stats:
+# Load=109/1024=11%, Rehash=0, Collisions=18/137=13%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# . (device 66306, inode 25691490): 30 files, no impossibilities.
+
+# 30 files, no impossibilities in 1 directories.
+
+# Implicit Rules
+
+# No implicit rules.
+
+# Files
+
+all:
+#  Command line target.
+#  Implicit rule search has not been done.
+#  Implicit/static pattern stem: ''
+#  File does not exist.
+#  File has been updated.
+#  Needs to be updated (-q is set).
+# automatic
+# @ := all
+# automatic
+# % := 
+# automatic
+# * := 
+# automatic
+# + := 
+# automatic
+# | := 
+# automatic
+# < := 
+# automatic
+# ^ := 
+# automatic
+# ? := 
+# variable set hash-table stats:
+# Load=8/32=25%, Rehash=0, Collisions=1/11=9%
+#  recipe to execute (from 'makefile', line 4):
+	cd 1 && nmake -nologo 
+	cd 2 && nmake -nologo 
+	cd 3 && nmake -nologo 
+	cd 4 && nmake -nologo 
+	cd 5 && nmake -nologo 
+	cd 6 && nmake -nologo 
+	cd 7 && nmake -nologo 
+	cd 8 && nmake -nologo 
+	cd 9 && nmake -nologo
+	cd 10 && nmake -nologo
+	cd 11 && nmake -nologo
+	cd 12 && nmake -nologo
+	cd 13 && nmake -nologo 
+	cd 14 && nmake -nologo 
+	cd 15 && nmake -nologo 
+	cd 16 && nmake -nologo 
+	cd 17 && nmake -nologo 
+	cd 18 && nmake -nologo 
+	cd 19 && nmake -nologo 
+
+# Not a target:
+.SUFFIXES:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+ 
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 20:42:06.72188812
+#  File has been updated.
+#  Successfully updated.
+
+clobber:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 46):
+	cd 1 && nmake -nologo clobber 
+	cd 2 && nmake -nologo clobber 
+	cd 3 && nmake -nologo clobber 
+	cd 4 && nmake -nologo clobber 
+	cd 5 && nmake -nologo clobber 
+	cd 6 && nmake -nologo clobber 
+	cd 7 && nmake -nologo clobber 
+	cd 8 && nmake -nologo clobber 
+	cd 9 && nmake -nologo clobber
+	cd 10 && nmake -nologo clobber
+	cd 11 && nmake -nologo clobber
+	cd 12 && nmake -nologo clobber
+	cd 13 && nmake -nologo clobber 
+	cd 14 && nmake -nologo clobber 
+	cd 15 && nmake -nologo clobber 
+	cd 16 && nmake -nologo clobber 
+	cd 17 && nmake -nologo clobber 
+	cd 18 && nmake -nologo clobber 
+	cd 19 && nmake -nologo clobber 
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 25):
+	cd 1 && nmake -nologo clean 
+	cd 2 && nmake -nologo clean 
+	cd 3 && nmake -nologo clean 
+	cd 4 && nmake -nologo clean 
+	cd 5 && nmake -nologo clean 
+	cd 6 && nmake -nologo clean 
+	cd 7 && nmake -nologo clean 
+	cd 8 && nmake -nologo clean 
+	cd 9 && nmake -nologo clean
+	cd 10 && nmake -nologo clean
+	cd 11 && nmake -nologo clean
+	cd 12 && nmake -nologo clean
+	cd 13 && nmake -nologo clean 
+	cd 14 && nmake -nologo clean 
+	cd 15 && nmake -nologo clean 
+	cd 16 && nmake -nologo clean 
+	cd 17 && nmake -nologo clean 
+	cd 18 && nmake -nologo clean 
+	cd 19 && nmake -nologo clean 
+
+# files hash-table stats:
+# Load=6/1024=1%, Rehash=0, Collisions=0/18=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 37 / storage = 249 B / avg = 6 B
+# current buf: size = 8162 B / used = 249 B / count = 37 / avg = 6 B
+
+# strcache performance: lookups = 46 / hit rate = 19%
+# hash-table stats:
+# Load=37/8192=0%, Rehash=0, Collisions=1/46=2%
+# Finished Make data base on Thu Jun  9 20:52:17 2022
+
+ 

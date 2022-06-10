@@ -1,0 +1,23 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/playerone/Documents/my_cpp_primer_Q-A'
+cd 1 && nmake -nologo 
+cd 2 && nmake -nologo 
+cd 3 && nmake -nologo 
+cd 4 && nmake -nologo 
+cd 5 && nmake -nologo 
+cd 6 && nmake -nologo 
+cd 7 && nmake -nologo 
+cd 8 && nmake -nologo 
+cd 9 && nmake -nologo
+cd 10 && nmake -nologo
+cd 11 && nmake -nologo
+cd 12 && nmake -nologo
+cd 13 && nmake -nologo 
+cd 14 && nmake -nologo 
+cd 15 && nmake -nologo 
+cd 16 && nmake -nologo 
+cd 17 && nmake -nologo 
+cd 18 && nmake -nologo 
+cd 19 && nmake -nologo 
+make: Leaving directory '/home/playerone/Documents/my_cpp_primer_Q-A'
+ 
