@@ -1,9 +1,0 @@
-To calculate a mortgate payment, what types would your use for the rate, principal, and payment?
-Explain why you selected each type.
-
-Answer:
-    Rate: float
-    principal: long long
-    principal: long long
-    The rate is usually a floating-point number with 4 significant digits. 
-    The principal and payment are integral usually less than 1 trillion.

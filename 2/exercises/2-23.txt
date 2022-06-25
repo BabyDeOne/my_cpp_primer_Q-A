@@ -1,4 +1,0 @@
-Given a pointer p, can you determine whether p points to a valid object? 
-if so , how? if not, why not?
-
-Answer: Yes, according to new c++ standerd, we can use "if (p != nullptr)" to determine whether p points to a valid object.

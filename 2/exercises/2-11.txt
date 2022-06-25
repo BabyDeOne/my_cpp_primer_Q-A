@@ -1,5 +1,0 @@
-Explain whether each of the following is a declaration or a definition
-
-(a) extern int ix = 1024: it's a definition
-(b) int iy: it's a definition
-(c) extern int iz: it's a declaration

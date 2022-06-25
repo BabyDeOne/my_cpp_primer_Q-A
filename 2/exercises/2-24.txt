@@ -1,7 +1,0 @@
-Why is the initialization of p legal but that of lp illegal?
-int i = 42;
-void *p = &i;
-long *lp = &i;
-
-Answer: the type of a point must math to the type of the object it points to, so lp is illegal, and void* is a special pointer
-type that can hold the address of any object.

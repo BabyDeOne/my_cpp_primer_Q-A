@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun  9 20:52:17 2022
+# Make data base, printed on Sat Jun 25 15:32:21 2022
 
 # Variables
 
@@ -51,7 +51,7 @@ VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupp
 # environment
 _ = /usr/share/code/code
 # environment
-JOURNAL_STREAM = 8:54157
+JOURNAL_STREAM = 8:55847
 # environment
 XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
 # makefile (from 'makefile', line 1)
@@ -71,7 +71,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-MANAGERPID = 1576
+MANAGERPID = 1601
 # environment
 LESSOPEN = | /usr/bin/lesspipe %s
 # environment
@@ -87,7 +87,7 @@ GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/1771,unix/liuniversity:/tmp/.ICE-unix/1771
+SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/1827,unix/liuniversity:/tmp/.ICE-unix/1827
 # environment
 XDG_RUNTIME_DIR = /run/user/1000
 # environment
@@ -97,7 +97,7 @@ VSCODE_LOG_STACK = false
 # environment
 ELECTRON_RUN_AS_NODE = 1
 # environment
-INVOCATION_ID = 093dd24c18d04bea8d309021a8c35dce
+INVOCATION_ID = 01cd6116ad1d4da2a5e2940cfb3b96b7
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
 # environment
@@ -107,7 +107,7 @@ XDG_SESSION_DESKTOP = ubuntu
 # environment
 SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 4763
+GIO_LAUNCHED_DESKTOP_FILE_PID = 2501
 # automatic
 %F = $(notdir $%)
 # environment
@@ -119,7 +119,7 @@ PWD = /home/playerone/Documents/my_cpp_primer_Q-A
 # default
 .LOADED := 
 # environment
-SSH_AGENT_PID = 1743
+SSH_AGENT_PID = 1799
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
 # environment
@@ -131,7 +131,7 @@ HOME = /home/playerone
 # environment
 LESSCLOSE = /usr/bin/lesspipe %s %s
 # environment
-VSCODE_CODE_CACHE_PATH = /home/playerone/.config/Code/CachedData/4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = /home/playerone/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LOGNAME = playerone
 # environment
@@ -157,7 +157,7 @@ SHLVL = 0
 # environment
 GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-0b2010f6-a39d-4859-8dd7-e8ed3bc005ac.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1d644b7e-dce1-4d6f-a07c-9e578ac24427.sock
 # default
 MAKE_VERSION := 4.2.1
 # environment
@@ -181,7 +181,7 @@ MAKE_COMMAND := make
 # environment
 LANGUAGE = en_US:en
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-6906037c-1.68.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-6906037c-1.68.1-main.sock
 # makefile
 MAKEFLAGS = pqrR
 # environment
@@ -227,7 +227,7 @@ LC_ADDRESS = en_US.UTF-8
 # environment
 LANG = C
 # environment
-VSCODE_PID = 4763
+VSCODE_PID = 2501
 # variable set hash-table stats:
 # Load=109/1024=11%, Rehash=0, Collisions=18/137=13%
 
@@ -279,6 +279,7 @@ all:
 	cd 4 && nmake -nologo 
 	cd 5 && nmake -nologo 
 	cd 6 && nmake -nologo 
+ 
 	cd 7 && nmake -nologo 
 	cd 8 && nmake -nologo 
 	cd 9 && nmake -nologo
@@ -300,7 +301,6 @@ all:
 #  File has not been updated.
 
 # Not a target:
- 
 makefile:
 #  Implicit rule search has been done.
 #  Last modified 2022-06-09 20:42:06.72188812
@@ -377,6 +377,6 @@ clean:
 # strcache performance: lookups = 46 / hit rate = 19%
 # hash-table stats:
 # Load=37/8192=0%, Rehash=0, Collisions=1/46=2%
-# Finished Make data base on Thu Jun  9 20:52:17 2022
+# Finished Make data base on Sat Jun 25 15:32:21 2022
 
  

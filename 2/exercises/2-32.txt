@@ -1,8 +1,0 @@
-Is the following code legal or not? If not, how might you make it legal?
-
-int null = 0, *p = null;
-
-Illegal, null is a plain int object, it is not a constant expression. So it can't be used to initialize p which is a pointer to an int.
-
-correction:
-    int *p = nullptr;

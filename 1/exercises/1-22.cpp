@@ -1,23 +1,15 @@
 #include <iostream>
-#include "/mnt/c/cpp/cppprimer/1/Sales_item.h"
+#include "Sales_item.h"
 
-/* int main(){
-    Sales_item item, book;
-    while (std::cin >> item){
-        book += item;
+int main(){
+    Sales_item totalBooks, book;
+    if(std::cin >> totalBooks){
+      while (std::cin >> book){
+      totalBooks += book;
+      }
     }
-    std::cout << book << std::endl;
+    std::cout << totalBooks << std::endl;
     return 0;
 }
-*/
 
-int main() {
-  Sales_item total, item;
-  if (std::cin >> total) {
-    while (std::cin >> item)
-      total += item;
-    std::cout << total << std::endl;
-  }
 
-  return 0;
-}
