@@ -1,235 +1,241 @@
 make all --print-data-base --no-builtin-variables --no-builtin-rules --question
-# GNU Make 4.2.1
+# GNU Make 4.3
 # Built for x86_64-pc-linux-gnu
-# Copyright (C) 1988-2016 Free Software Foundation, Inc.
+# Copyright (C) 1988-2020 Free Software Foundation, Inc.
 # License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Sat Jun 25 15:32:21 2022
+# Make data base, printed on Tue Jul  5 18:06:44 2022
 
 # Variables
 
-# 'override' directive
-GNUMAKEFLAGS := 
-# automatic
-<D = $(patsubst %/,%,$(dir $<))
-# automatic
-?F = $(notdir $?)
-# makefile (from 'makefile', line 1)
-DIRS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
 # environment
-PAPERSIZE = letter
+GDK_BACKEND = x11
 # environment
-DESKTOP_SESSION = ubuntu
-# default
-.SHELLFLAGS := -c
+LC_ALL = C
 # environment
-XDG_SESSION_CLASS = user
+GNOME_SHELL_SESSION_MODE = ubuntu
 # environment
-XDG_SESSION_TYPE = x11
-# environment
-VSCODE_LOG_NATIVE = false
-# automatic
-?D = $(patsubst %/,%,$(dir $?))
-# environment
-IM_CONFIG_PHASE = 1
-# automatic
-@D = $(patsubst %/,%,$(dir $@))
-# environment
-XAUTHORITY = /run/user/1000/gdm/Xauthority
-# environment
-GDMSESSION = ubuntu
-# environment
-XMODIFIERS = @im=ibus
-# makefile
-CURDIR := /home/playerone/Documents/my_cpp_primer_Q-A
-# makefile
-SHELL = /bin/sh
-# environment
-VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
-# environment
-_ = /usr/share/code/code
-# environment
-JOURNAL_STREAM = 8:55847
-# environment
-XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
-# makefile (from 'makefile', line 1)
-MAKEFILE_LIST :=  makefile
-# automatic
-@F = $(notdir $@)
-# environment
-GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
-# environment
-USERNAME = playerone
-# environment
-MAKELEVEL := 0
-# environment
-XDG_DATA_DIRS = /usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
-# environment
-DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
-# environment
-VSCODE_VERBOSE_LOGGING = true
-# environment
-MANAGERPID = 1601
-# environment
-LESSOPEN = | /usr/bin/lesspipe %s
-# environment
-LC_NAME = en_US.UTF-8
-# environment
-VSCODE_CWD = /home/playerone
-# default
-MAKE_HOST := x86_64-pc-linux-gnu
-# environment
-PATH = /home/playerone/.local/bin:/home/playerone/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
-# environment
-GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/1827,unix/liuniversity:/tmp/.ICE-unix/1827
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7e8f664b-43c3-4c1f-be3c-f8f0d8b53744.sock
 # environment
-XDG_RUNTIME_DIR = /run/user/1000
+LC_NAME = en_US.UTF-8
 # environment
-XDG_MENU_PREFIX = gnome-
+LC_NUMERIC = en_US.UTF-8
+# environment
+VSCODE_CWD = /home/playerone
+# environment
+WINDOWPATH = 2
+# environment
+LC_ADDRESS = en_US.UTF-8
+# default
+MAKE_COMMAND := make
+# environment
+QT_ACCESSIBILITY = 1
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# default
+.VARIABLES := 
+# environment
+PWD = /home/playerone/Documents/my_cpp_primer_Q-A
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# environment
+XDG_DATA_DIRS = /usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
 # environment
 VSCODE_LOG_STACK = false
-# environment
-ELECTRON_RUN_AS_NODE = 1
-# environment
-INVOCATION_ID = 01cd6116ad1d4da2a5e2940cfb3b96b7
-# default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
-# environment
-LS_COLORS = 
-# environment
-XDG_SESSION_DESKTOP = ubuntu
-# environment
-SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
-# environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 2501
 # automatic
 %F = $(notdir $%)
 # environment
-DISPLAY = :1
+VSCODE_CODE_CACHE_PATH = /home/playerone/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
+# environment
+LANG = C
+# environment
+XAUTHORITY = /run/user/1000/gdm/Xauthority
+# default
+.LOADED := 
+# default
+.INCLUDE_DIRS = /usr/local/include /usr/include /usr/include
+# makefile
+MAKEFLAGS = pqrR
+# makefile
+CURDIR := /home/playerone/Documents/my_cpp_primer_Q-A
 # environment
 VSCODE_PIPE_LOGGING = true
 # environment
-PWD = /home/playerone/Documents/my_cpp_primer_Q-A
-# default
-.LOADED := 
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
 # environment
-SSH_AGENT_PID = 1799
+LESSOPEN = | /usr/bin/lesspipe %s
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# makefile (from 'makefile', line 1)
+DIRS = 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_AUTH_SOCK = /run/user/1000/keyring/ssh
+# default
+.SHELLFLAGS := -c
+# environment
+XDG_CONFIG_DIRS = /etc/xdg/xdg-ubuntu:/etc/xdg
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+XDG_SESSION_DESKTOP = ubuntu
+# makefile (from 'makefile', line 1)
+MAKEFILE_LIST := makefile
+# automatic
+@F = $(notdir $@)
+# environment
+VSCODE_VERBOSE_LOGGING = true
+# environment
+VSCODE_PID = 55116
+# environment
+XDG_SESSION_TYPE = x11
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# environment
+SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/2164,unix/liuniversity:/tmp/.ICE-unix/2164
+# automatic
+*F = $(notdir $*)
+# environment
+CHROME_DESKTOP = code-url-handler.desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# environment
+VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+GNOME_DESKTOP_SESSION_ID = this-is-deprecated
+# makefile
+SHELL = /bin/sh
+# default
+MAKECMDGOALS := all
+# environment
+XMODIFIERS = @im=fcitx
+# environment
+GJS_DEBUG_TOPICS = JS ERROR;JS LOG
+# environment
+SHLVL = 0
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# environment
+PATH = /home/playerone/.local/bin:/home/playerone/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin
+# default
+MAKEFILES := 
+# environment
+LANGUAGE = en_US:en
+# environment
+LC_MONETARY = en_US.UTF-8
+# automatic
+^F = $(notdir $^)
+# environment
+LC_TIME = en_US.UTF-8
+# environment
+INVOCATION_ID = 5934c296e4bf4c3583c7cb11188cee10
+# environment
+VSCODE_LOG_NATIVE = false
+# environment
+USERNAME = playerone
+# environment
+LC_TELEPHONE = en_US.UTF-8
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# automatic
+?F = $(notdir $?)
+# environment
+GTK_IM_MODULE = fcitx
+# environment
+XDG_CURRENT_DESKTOP = Unity
+# environment
+LS_COLORS = 
+# automatic
++F = $(notdir $+)
+# environment
+DESKTOP_SESSION = ubuntu
 # environment
 ORIGINAL_XDG_CURRENT_DESKTOP = ubuntu:GNOME
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+CLUTTER_IM_MODULE = xim
+# environment
+LOGNAME = playerone
+# environment
+GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
+# makefile
+.DEFAULT_GOAL := all
+# environment
+SYSTEMD_EXEC_PID = 2188
+# environment
+DISPLAY = :1
+# environment
+USER = playerone
 # environment
 GTK_MODULES = gail:atk-bridge
+# default
+MAKE_VERSION := 4.3
+# environment
+MANAGERPID = 1801
+# environment
+LC_MEASUREMENT = en_US.UTF-8
+# environment
+GIO_LAUNCHED_DESKTOP_FILE_PID = 55116
+# environment
+_ = /usr/share/code/code
+# environment
+LC_PAPER = en_US.UTF-8
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# environment
+GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
+# environment
+JOURNAL_STREAM = 8:45256
+# environment
+XDG_SESSION_CLASS = user
 # environment
 VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
 # environment
 HOME = /home/playerone
 # environment
-LESSCLOSE = /usr/bin/lesspipe %s %s
+QT_IM_MODULE = fcitx
 # environment
-VSCODE_CODE_CACHE_PATH = /home/playerone/.config/Code/CachedData/30d9c6cd9483b2cc586687151bcbcd635f373630
-# environment
-LOGNAME = playerone
-# environment
-APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = 1
-# automatic
-+F = $(notdir $+)
-# environment
-VSCODE_HANDLES_UNCAUGHT_ERRORS = true
-# environment
-GNOME_DESKTOP_SESSION_ID = this-is-deprecated
-# automatic
-^D = $(patsubst %/,%,$(dir $^))
-# environment
-LC_TIME = en_US.UTF-8
-# default
-MAKE = $(MAKE_COMMAND)
-# default
-MAKECMDGOALS := all
-# environment
-QT_IM_MODULE = ibus
-# environment
-SHLVL = 0
-# environment
-GNOME_SHELL_SESSION_MODE = ubuntu
-# environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-1d644b7e-dce1-4d6f-a07c-9e578ac24427.sock
-# default
-MAKE_VERSION := 4.2.1
-# environment
-USER = playerone
-# environment
-LC_MONETARY = en_US.UTF-8
-# makefile
-.DEFAULT_GOAL := all
-# environment
-XDG_CURRENT_DESKTOP = Unity
-# automatic
-%D = $(patsubst %/,%,$(dir $%))
-# environment
-LC_TELEPHONE = en_US.UTF-8
-# default
-MAKE_COMMAND := make
-# default
-.VARIABLES := 
-# automatic
-*F = $(notdir $*)
-# environment
-LANGUAGE = en_US:en
+ELECTRON_RUN_AS_NODE = 1
 # environment
 VSCODE_IPC_HOOK = /run/user/1000/vscode-6906037c-1.68.1-main.sock
-# makefile
-MAKEFLAGS = pqrR
 # environment
-MFLAGS = -pqrR
-# automatic
-*D = $(patsubst %/,%,$(dir $*))
-# automatic
-+D = $(patsubst %/,%,$(dir $+))
+IM_CONFIG_PHASE = 1
 # environment
-GDK_BACKEND = x11
-# environment
-LC_PAPER = en_US.UTF-8
-# environment
-QT_ACCESSIBILITY = 1
-# default
-MAKEFILES := 
-# environment
-LC_NUMERIC = en_US.UTF-8
-# automatic
-<F = $(notdir $<)
-# environment
-LC_MEASUREMENT = en_US.UTF-8
-# environment
-LC_ALL = C
-# environment
-GJS_DEBUG_TOPICS = JS ERROR;JS LOG
-# automatic
-^F = $(notdir $^)
-# default
-SUFFIXES := 
-# environment
-CHROME_DESKTOP = code-url-handler.desktop
-# environment
-WINDOWPATH = 2
-# default
-.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
-# environment
-LC_IDENTIFICATION = en_US.UTF-8
+PAPERSIZE = letter
 # default
 .RECIPEPREFIX := 
+# automatic
+<F = $(notdir $<)
+# default
+SUFFIXES := 
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink load
 # environment
-LC_ADDRESS = en_US.UTF-8
+XDG_MENU_PREFIX = gnome-
 # environment
-LANG = C
+GDMSESSION = ubuntu
 # environment
-VSCODE_PID = 2501
+LC_IDENTIFICATION = en_US.UTF-8
 # variable set hash-table stats:
-# Load=109/1024=11%, Rehash=0, Collisions=18/137=13%
+# Load=112/1024=11%, Rehash=0, Collisions=6/145=4%
 
 # Pattern-specific Variable Values
 
@@ -237,15 +243,47 @@ VSCODE_PID = 2501
 
 # Directories
 
-# . (device 66306, inode 25691490): 30 files, no impossibilities.
+# . (device 66306, inode 25691490): 31 files, no impossibilities.
 
-# 30 files, no impossibilities in 1 directories.
+# 31 files, no impossibilities in 1 directories.
 
 # Implicit Rules
 
 # No implicit rules.
 
 # Files
+
+clean:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'makefile', line 25):
+	cd 1 && nmake -nologo clean 
+	cd 2 && nmake -nologo clean 
+	cd 3 && nmake -nologo clean 
+	cd 4 && nmake -nologo clean 
+	cd 5 && nmake -nologo clean 
+	cd 6 && nmake -nologo clean 
+	cd 7 && nmake -nologo clean 
+	cd 8 && nmake -nologo clean 
+	cd 9 && nmake -nologo clean
+	cd 10 && nmake -nologo clean
+	cd 11 && nmake -nologo clean
+	cd 12 && nmake -nologo clean
+	cd 13 && nmake -nologo clean 
+	cd 14 && nmake -nologo clean 
+	cd 15 && nmake -nologo clean 
+	cd 16 && nmake -nologo clean 
+	cd 17 && nmake -nologo clean 
+	cd 18 && nmake -nologo clean 
+	cd 19 && nmake -nologo clean 
+
+# Not a target:
+ 
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
 
 all:
 #  Command line target.
@@ -257,19 +295,19 @@ all:
 # automatic
 # @ := all
 # automatic
-# % := 
-# automatic
 # * := 
+# automatic
+# < := 
 # automatic
 # + := 
 # automatic
-# | := 
-# automatic
-# < := 
+# % := 
 # automatic
 # ^ := 
 # automatic
 # ? := 
+# automatic
+# | := 
 # variable set hash-table stats:
 # Load=8/32=25%, Rehash=0, Collisions=1/11=9%
 #  recipe to execute (from 'makefile', line 4):
@@ -279,7 +317,6 @@ all:
 	cd 4 && nmake -nologo 
 	cd 5 && nmake -nologo 
 	cd 6 && nmake -nologo 
- 
 	cd 7 && nmake -nologo 
 	cd 8 && nmake -nologo 
 	cd 9 && nmake -nologo
@@ -293,19 +330,6 @@ all:
 	cd 17 && nmake -nologo 
 	cd 18 && nmake -nologo 
 	cd 19 && nmake -nologo 
-
-# Not a target:
-.SUFFIXES:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
-
-# Not a target:
-makefile:
-#  Implicit rule search has been done.
-#  Last modified 2022-06-09 20:42:06.72188812
-#  File has been updated.
-#  Successfully updated.
 
 clobber:
 #  Implicit rule search has not been done.
@@ -333,35 +357,17 @@ clobber:
 	cd 19 && nmake -nologo clobber 
 
 # Not a target:
-.DEFAULT:
-#  Implicit rule search has not been done.
-#  Modification time never checked.
-#  File has not been updated.
+makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-06-09 20:42:06.72188812
+#  File has been updated.
+#  Successfully updated.
 
-clean:
+# Not a target:
+.SUFFIXES:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
 #  File has not been updated.
-#  recipe to execute (from 'makefile', line 25):
-	cd 1 && nmake -nologo clean 
-	cd 2 && nmake -nologo clean 
-	cd 3 && nmake -nologo clean 
-	cd 4 && nmake -nologo clean 
-	cd 5 && nmake -nologo clean 
-	cd 6 && nmake -nologo clean 
-	cd 7 && nmake -nologo clean 
-	cd 8 && nmake -nologo clean 
-	cd 9 && nmake -nologo clean
-	cd 10 && nmake -nologo clean
-	cd 11 && nmake -nologo clean
-	cd 12 && nmake -nologo clean
-	cd 13 && nmake -nologo clean 
-	cd 14 && nmake -nologo clean 
-	cd 15 && nmake -nologo clean 
-	cd 16 && nmake -nologo clean 
-	cd 17 && nmake -nologo clean 
-	cd 18 && nmake -nologo clean 
-	cd 19 && nmake -nologo clean 
 
 # files hash-table stats:
 # Load=6/1024=1%, Rehash=0, Collisions=0/18=0%
@@ -371,12 +377,12 @@ clean:
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 37 / storage = 249 B / avg = 6 B
-# current buf: size = 8162 B / used = 249 B / count = 37 / avg = 6 B
+# strcache buffers: 1 (0) / strings = 38 / storage = 253 B / avg = 6 B
+# current buf: size = 8162 B / used = 253 B / count = 38 / avg = 6 B
 
-# strcache performance: lookups = 46 / hit rate = 19%
+# strcache performance: lookups = 47 / hit rate = 19%
 # hash-table stats:
-# Load=37/8192=0%, Rehash=0, Collisions=1/46=2%
-# Finished Make data base on Sat Jun 25 15:32:21 2022
+# Load=38/8192=0%, Rehash=0, Collisions=0/47=0%
+# Finished Make data base on Tue Jul  5 18:06:44 2022
 
  
