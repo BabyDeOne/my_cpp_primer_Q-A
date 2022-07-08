@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul  5 18:06:44 2022
+# Make data base, printed on Thu Jul  7 20:35:59 2022
 
 # Variables
 
@@ -21,7 +21,7 @@ SSH_AGENT_LAUNCHER = gnome-keyring
 # environment
 GJS_DEBUG_OUTPUT = stderr
 # environment
-VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-7e8f664b-43c3-4c1f-be3c-f8f0d8b53744.sock
+VSCODE_IPC_HOOK_EXTHOST = /run/user/1000/vscode-ipc-12d540e8-63de-4dc5-b97d-57a18a8bfcba.sock
 # environment
 LC_NAME = en_US.UTF-8
 # environment
@@ -97,13 +97,13 @@ MAKEFILE_LIST := makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 55116
+VSCODE_PID = 7119
 # environment
 XDG_SESSION_TYPE = x11
 # automatic
 ?D = $(patsubst %/,%,$(dir $?))
 # environment
-SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/2164,unix/liuniversity:/tmp/.ICE-unix/2164
+SESSION_MANAGER = local/liuniversity:@/tmp/.ICE-unix/2153,unix/liuniversity:/tmp/.ICE-unix/2153
 # automatic
 *F = $(notdir $*)
 # environment
@@ -145,7 +145,7 @@ LC_MONETARY = en_US.UTF-8
 # environment
 LC_TIME = en_US.UTF-8
 # environment
-INVOCATION_ID = 5934c296e4bf4c3583c7cb11188cee10
+INVOCATION_ID = 8b2c51a7cc6d47f999853a511fbaddf3
 # environment
 VSCODE_LOG_NATIVE = false
 # environment
@@ -179,7 +179,7 @@ GIO_LAUNCHED_DESKTOP_FILE = /usr/share/applications/code.desktop
 # makefile
 .DEFAULT_GOAL := all
 # environment
-SYSTEMD_EXEC_PID = 2188
+SYSTEMD_EXEC_PID = 2176
 # environment
 DISPLAY = :1
 # environment
@@ -189,11 +189,11 @@ GTK_MODULES = gail:atk-bridge
 # default
 MAKE_VERSION := 4.3
 # environment
-MANAGERPID = 1801
+MANAGERPID = 1804
 # environment
 LC_MEASUREMENT = en_US.UTF-8
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 55116
+GIO_LAUNCHED_DESKTOP_FILE_PID = 7119
 # environment
 _ = /usr/share/code/code
 # environment
@@ -203,7 +203,7 @@ XDG_RUNTIME_DIR = /run/user/1000
 # environment
 GPG_AGENT_INFO = /run/user/1000/gnupg/S.gpg-agent:0:1
 # environment
-JOURNAL_STREAM = 8:45256
+JOURNAL_STREAM = 8:43409
 # environment
 XDG_SESSION_CLASS = user
 # environment
@@ -235,6 +235,7 @@ GDMSESSION = ubuntu
 # environment
 LC_IDENTIFICATION = en_US.UTF-8
 # variable set hash-table stats:
+ 
 # Load=112/1024=11%, Rehash=0, Collisions=6/145=4%
 
 # Pattern-specific Variable Values
@@ -279,7 +280,6 @@ clean:
 	cd 19 && nmake -nologo clean 
 
 # Not a target:
- 
 .DEFAULT:
 #  Implicit rule search has not been done.
 #  Modification time never checked.
@@ -383,6 +383,6 @@ makefile:
 # strcache performance: lookups = 47 / hit rate = 19%
 # hash-table stats:
 # Load=38/8192=0%, Rehash=0, Collisions=0/47=0%
-# Finished Make data base on Tue Jul  5 18:06:44 2022
+# Finished Make data base on Thu Jul  7 20:35:59 2022
 
  
