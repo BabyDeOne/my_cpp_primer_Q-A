@@ -4,6 +4,6 @@
 int main(){
     int i = 42;
     int *p1 = &i;
-    *p1 = *p1 * *p1;    // 42*42
-    std::cout << *p1 << std::endl;
+    *p1 = *p1 * *p1;    // change the value of i, i = 42*42
+    std::cout << i << std::endl;
 }
