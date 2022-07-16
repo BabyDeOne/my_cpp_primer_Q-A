@@ -1,1 +1,0 @@
-I prefer the Range-Base for loop approache because it is more reliable.It can avoid some "out-of-range" problem.
