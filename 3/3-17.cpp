@@ -5,6 +5,7 @@
 using namespace std;
 
 int main(){
+<<<<<<< HEAD
     vector<string> words;
     string word;
     
@@ -27,3 +28,16 @@ int main(){
 
     return 0;
 }
+=======
+    vector<string> svec;
+    string word;
+    while( cin >> word){
+        svec.push_back(word);
+    }
+    for(auto &a : svec ){
+        a = toupper(a);
+        cout << a ;
+    }
+    cout << endl;
+}
+>>>>>>> origin/main
